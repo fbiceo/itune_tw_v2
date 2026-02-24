@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ITune.tw | 史瑞克數位工作室</title>
+    <meta name="description" content="全端軟硬整合專家，為您打造穩健的數位資產。從自動化機器人到全球 IT 架構。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text"><span class="logo-i">I</span><span class="logo-t">T</span><span
+                        class="logo-une">une</span></span>
+                <span class="logo-sub" data-i18n="nav.logo.sub">史瑞克數位工作室</span>
+            </a>
+            <div class="nav-links">
+                <a href="#case-studies" class="nav-link" data-i18n="nav.cases">實戰故事</a>
+                <a href="#contact" class="btn btn-primary nav-btn" data-i18n="nav.contact">預約顧問</a>
+                <div class="lang-switcher-wrap">
+                    <select id="lang-switcher" class="lang-switcher">
+                        <option value="zh-TW">繁體中文</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="hero section-dark">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title reveal-up">
+                <span class="title-gradient" data-i18n="hero.title.gradient">全端軟硬整合</span><br>
+                <span data-i18n="hero.title.sub">長期穩定營運</span>
+            </h1>
+            <p class="hero-subtitle reveal-up delay-1" data-i18n="hero.desc">
+                我是史瑞克，專精於「軟硬體整合」與「複雜系統架構」。從連鎖店 POS 到工廠自動化，我不做交差了事的專案，只為企業解決最棘手的技術難題，確保您的生意在數位世界上穩健運轉。
+            </p>
+            <div class="hero-actions reveal-up delay-2">
+                <a href="#contact" class="btn btn-primary btn-lg glow-btn" data-i18n="hero.btn.chat">
+                    <i class="fa-solid fa-comment-dots"></i> 免費聊聊你的構思
+                </a>
+                <a href="#case-studies" class="btn btn-outline btn-lg" data-i18n="hero.btn.cases">
+                    <i class="fa-solid fa-rocket"></i> 看看我解決過的難題
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow"></div>
+        </div>
+    </header>
+
+    <!-- Value Proposition Section -->
+    <section id="features" class="features section-light">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title"><span data-i18n="features.title.pre">為什麼選擇</span><span class="text-accent"
+                        data-i18n="features.title.accent">史瑞克</span><span data-i18n="features.title.post">？</span></h2>
+                <p class="section-desc" data-i18n="features.desc">技術轉型不是換一套軟體，而是思維的升級。我提供的是從「商業邏輯」出發的技術支援。</p>
+            </div>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card reveal-up tilt-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="features.card1.title">全端視角</h3>
+                    <p class="card-text" data-i18n="features.card1.desc">我不只懂軟體，也懂弱電拉線與硬體通訊。你不需要分別找網管和水電工，找我一個就夠。</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card reveal-up delay-1 tilt-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-hourglass-half"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="features.card2.title">長期主義</h3>
+                    <p class="card-text" data-i18n="features.card2.desc">我不做「交差了事」的專案。我寫的系統是為了讓你在不需要維修的情況下，穩定營運 5
+                        年以上而設計。</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card reveal-up delay-2 tilt-card">
+                    <div class="card-icon">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <h3 class="card-title" data-i18n="features.card3.title">敏捷開發</h3>
+                    <p class="card-text" data-i18n="features.card3.desc">沒有繁瑣的業務流程，你直接與核心開發者對話。需求不失真，開發節奏完全透明。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies section-dark">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2 class="section-title"><span data-i18n="cases.title.pre">實戰</span><span class="title-gradient"
+                        data-i18n="cases.title.gradient">優化故事</span></h2>
+                <p class="section-desc" data-i18n="cases.desc">不談規格，談我們如何為客戶省錢、賺錢與解決痛點</p>
+            </div>
+            <div class="cases-grid">
+                <!-- Case 1 -->
+                <div class="case-card reveal-up tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80"
+                            alt="YouTube 雲端監控" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case1.badge">成本優化</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case1.title">減少 70% 事故率的雲端監控</h3>
+                        <p class="case-text" data-i18n="cases.case1.desc">利用編碼技術將監控畫面即時同步至 YouTube，取代傳統
+                            NAS，徹底省下昂貴的硬碟購買與維修費，目前已導入數百家門市。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case1.stat"><i
+                                    class="fa-solid fa-arrow-trend-down text-green"></i> 維護成本 -95%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 2 -->
+                <div class="case-card reveal-up delay-1 tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80"
+                            alt="跨國 POS 營運整合" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case2.badge">跨國連線</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case2.title">跨國 POS 營運整合</h3>
+                        <p class="case-text" data-i18n="cases.case2.desc">透過客製化 Site-to-Site VPN
+                            與專利緩存同步機制，讓台灣總部即時掌控香港、日本、泰國分店的每一筆營收與庫存數據。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case2.stat"><i class="fa-solid fa-bolt text-yellow"></i>
+                                數據秒級同步</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 3 -->
+                <div class="case-card reveal-up delay-2 tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                            alt="物流自動化 AMR" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case3.badge">AI ROBOTS</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case3.title">物流自動化 AMR 機器人</h3>
+                        <p class="case-text" data-i18n="cases.case3.desc">為缺工嚴重的物流中心導入自主移動機器人 (AMR)，整合 UWB 定位與 SLAM
+                            導航技術，實現 24H 無人搬運。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case3.stat"><i
+                                    class="fa-solid fa-arrow-trend-up text-accent"></i> 效率提升 200%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 4 -->
+                <div class="case-card reveal-up tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=800&q=80"
+                            alt="商用車隊 AI 監控" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case4.badge">AI 安全</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case4.title">商用車隊 AI 監控</h3>
+                        <p class="case-text" data-i18n="cases.case4.desc">針對長途物流業，導入邊緣運算 AI
+                            鏡頭。系統能即時偵測司機分心、疲勞或違規行為，事故率顯著下降。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case4.stat"><i
+                                    class="fa-solid fa-shield text-green"></i> 疲勞偵測 100%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 5 -->
+                <div class="case-card reveal-up delay-1 tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80"
+                            alt="UWB 資產追蹤系統" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case5.badge">工業 4.0</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case5.title">UWB 公分級資產追蹤</h3>
+                        <p class="case-text" data-i18n="cases.case5.desc">為大型工廠導入 UWB
+                            定位。解決了昂貴機具與物料在萬坪廠房中容易「失蹤」的痛點，資產利用率大幅提升。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case5.stat"><i
+                                    class="fa-solid fa-location-crosshairs text-accent"></i> 誤差 < 10cm</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Case 6 -->
+                <div class="case-card reveal-up delay-2 tech-hover">
+                    <div class="case-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80"
+                            alt="連鎖門市智慧看板" class="case-img">
+                        <div class="case-badge" data-i18n="cases.case6.badge">零售科技</div>
+                    </div>
+                    <div class="case-content">
+                        <h3 class="case-title" data-i18n="cases.case6.title">連鎖門市智慧看板</h3>
+                        <p class="case-text" data-i18n="cases.case6.desc">協助零售品牌建立內容分發系統
+                            (CMS)。總部人員只需按一個鍵，即可同步更新全球門市促銷內容。</p>
+                        <div class="case-stats">
+                            <span class="stat" data-i18n="cases.case6.stat"><i
+                                    class="fa-solid fa-cloud-arrow-up text-blue"></i> 雲端即時派送</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-light">
+        <div class="container">
+            <div class="contact-card reveal-up">
+                <div class="contact-info">
+                    <h2 class="contact-title"><span data-i18n="contact.title.pre">預約</span><span class="text-accent"
+                            data-i18n="contact.title.accent">技術諮詢</span></h2>
+                    <p class="contact-desc" data-i18n="contact.desc">有一個技術構想但不確定可不可行？加我的
+                        Line，免費聊聊你的想法，我會從技術與商業角度給你最誠實的建議。</p>
+                    <ul class="contact-perks">
+                        <li data-i18n="contact.perk1"><i class="fa-solid fa-check-circle text-accent"></i> 技術可行性評估</li>
+                        <li data-i18n="contact.perk2"><i class="fa-solid fa-check-circle text-accent"></i> 預算與人力精簡建議
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-methods">
+                    <a href="#" class="contact-btn line-btn">
+                        <div class="icon-wrap bg-green">
+                            <i class="fa-brands fa-line"></i>
+                        </div>
+                        <div class="btn-text">
+                            <h4 data-i18n="contact.line.title">LINE 線上諮詢</h4>
+                            <span data-i18n="contact.line.desc">推薦：傳送現場照片或架構圖</span>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-btn phone-btn">
+                        <div class="icon-wrap bg-blue">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="btn-text">
+                            <h4 data-i18n="contact.phone.title">直接撥打</h4>
+                            <span data-i18n="contact.phone.desc">緊急技術故障或需求評估</span>
+                        </div>
+                    </a>
+                    <a href="#" class="contact-btn email-btn">
+                        <div class="icon-wrap bg-slate">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="btn-text">
+                            <h4 data-i18n="contact.email.title">電子郵件</h4>
+                            <span data-i18n="contact.email.desc">正式提案或招標邀請</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text"><span class="logo-i">I</span><span class="logo-t">T</span><span
+                            class="logo-une">une</span></span>
+                </div>
+                <p class="copyright" data-i18n="footer.copy">&copy; 2026 ITune.tw. 讓技術成為您的資產。</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="floating-actions">
+        <a href="#" class="float-btn float-line">
+            <i class="fa-brands fa-line"></i>
+        </a>
+        <a href="#" class="float-btn float-phone">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="translations.js"></script>
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
