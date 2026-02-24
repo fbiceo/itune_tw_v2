@@ -30,7 +30,7 @@ const translations = {
         "cases.desc": "不談規格，談我們如何為客戶省錢、賺錢與解決痛點",
 
         "cases.case1.badge": "成本優化",
-        "cases.case1.title": "減少 70% 事故率的雲端監控",
+        "cases.case1.title": "降低 95% 監控儲存硬碟空間成本",
         "cases.case1.desc": "利用編碼技術將監控畫面即時同步至 YouTube，取代傳統 NAS，徹底省下昂貴的硬碟購買與維修費，目前已導入數百家門市。",
         "cases.case1.stat": "<i class=\"fa-solid fa-arrow-trend-down text-green\"></i> 維護成本 -95%",
 
@@ -105,7 +105,7 @@ const translations = {
         "cases.desc": "Not talking about specs, talking about how we save money, make money, and solve pain points for clients.",
 
         "cases.case1.badge": "Cost Optimization",
-        "cases.case1.title": "Cloud Monitoring: 70% Accident Reduction",
+        "cases.case1.title": "Cloud Monitoring: 95% Storage Cost Reduction",
         "cases.case1.desc": "Using encoding tech to sync monitoring to YouTube real-time, replacing traditional NAS, saving expensive hard drive and repair costs. Currently deployed in hundreds of stores.",
         "cases.case1.stat": "<i class=\"fa-solid fa-arrow-trend-down text-green\"></i> Maintenance Cost -95%",
 
