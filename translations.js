@@ -148,5 +148,155 @@ const translations = {
         "contact.email.desc": "Formal proposals or bidding invitations",
 
         "footer.copy": "&copy; 2026 ITune.tw. Let technology become your asset."
+    },
+    "ja": {
+        "meta.title": "ITune.tw | シュレック・デジタルスタジオ",
+        "meta.desc": "フルスタックハード・ソフト統合の専門家。自動化ロボットからグローバルITアーキテクチャまで。",
+
+        "nav.logo.sub": "シュレック・デジタルスタジオ",
+        "nav.cases": "導入事例",
+        "nav.contact": "コンサルタント予約",
+
+        "hero.title.gradient": "フルスタック統合",
+        "hero.title.sub": "長期安定運用",
+        "hero.desc": "私はシュレック。「ハード・ソフト統合」と「複雑なシステムアーキテクチャ」を専門としています。チェーン店のPOSから工場自動化まで、妥協のないプロジェクトで企業の最大の技術課題を解決し、デジタル世界でのビジネスの安定稼働を確保します。",
+        "hero.btn.chat": "<i class=\"fa-solid fa-comment-dots\"></i> アイデアについて無料で相談",
+        "hero.btn.cases": "<i class=\"fa-solid fa-rocket\"></i> 解決した課題を見る",
+
+        "features.title.pre": "なぜ",
+        "features.title.accent": "シュレック",
+        "features.title.post": "を選ぶのか？",
+        "features.desc": "技術のトランスフォーメーションはソフトウェアの交換ではなく、思考のアップグレードです。「ビジネスロジック」に基づく技術サポートを提供します。",
+
+        "features.card1.title": "フルスタックの視点",
+        "features.card1.desc": "ソフトウェア開発、仮想化プラットフォーム、バックボーンネットワーク、バックエンドAPI、フロントエンド開発、ITシステム統合に精通。運用担当とハードウェアエンジニアを別々に探す必要はありません。私一人で十分です。",
+        "features.card2.title": "長期主義",
+        "features.card2.desc": "「間に合わせ」のプロジェクトは行いません。メンテナンス不要で5年以上安定して稼働するようにシステムを設計します。",
+        "features.card3.title": "アジャイル開発",
+        "features.card3.desc": "煩雑な業務プロセスはなく、コア開発者と直接対話します。要件に歪みがなく、開発のペースは完全に透明です。",
+
+        "cases.title.pre": "実践的な",
+        "cases.title.gradient": "最適化事例",
+        "cases.desc": "スペックの話ではなく、いかにしてクライアントのコストを削減し、利益を生み出し、課題を解決したかについてお話しします。",
+
+        "cases.case1.badge": "コスト最適化",
+        "cases.case1.title": "監視ストレージコストを95%削減",
+        "cases.case1.desc": "エンコーディング技術を用いて監視映像をYouTubeにリアルタイム同期し、従来のNASを代替。高価なHDDの購入と修理コストを完全に削減。現在数百店舗に導入済み。",
+        "cases.case1.stat": "<i class=\"fa-solid fa-arrow-trend-down text-green\"></i> メンテナンスコスト -95%",
+
+        "cases.case2.badge": "クロスボーダー",
+        "cases.case2.title": "国境を越えたPOS統合",
+        "cases.case2.desc": "カスタマイズされたSite-to-Site VPNと特許取得済みのキャッシュ同期メカニズムにより、台湾本社が香港、日本、タイの支店のすべての売上と在庫データをリアルタイムで把握可能に。",
+        "cases.case2.stat": "<i class=\"fa-solid fa-bolt text-yellow\"></i> 秒単位のデータ同期",
+
+        "cases.case3.badge": "AI ROBOTS",
+        "cases.case3.title": "物流自動化AMRロボット",
+        "cases.case3.desc": "人手不足の深刻な物流センターに自律走行搬送ロボット（AMR）を導入し、UWB測位とSLAMナビゲーション技術を統合して24時間無人搬送を実現。",
+        "cases.case3.stat": "<i class=\"fa-solid fa-arrow-trend-up text-accent\"></i> 効率 200%向上",
+
+        "cases.case4.badge": "AI セーフティ",
+        "cases.case4.title": "商用車両AI監視",
+        "cases.case4.desc": "長距離物流業界向けにエッジコンピューティングAIカメラを導入。ドライバーの注意散漫、疲労、違反行為をリアルタイムで検知し、事故率を大幅に低下。",
+        "cases.case4.stat": "<i class=\"fa-solid fa-shield text-green\"></i> 疲労検知 100%",
+
+        "cases.case5.badge": "インダストリー4.0",
+        "cases.case5.title": "UWB cmレベル資産追跡",
+        "cases.case5.desc": "大規模工場にUWB測位を導入。広大な工場内で高価な機械や資材が「行方不明」になりやすいという課題を解決し、資産の利用率を大幅に向上。",
+        "cases.case5.stat": "<i class=\"fa-solid fa-location-crosshairs text-accent\"></i> 誤差 < 10cm",
+
+        "cases.case6.badge": "リテールテック",
+        "cases.case6.title": "チェーン店スマートサイネージ",
+        "cases.case6.desc": "小売ブランドのコンテンツ配信システム（CMS）構築を支援。本社スタッフがボタン一つで全世界の店舗のプロモーションコンテンツを同期可能。",
+        "cases.case6.stat": "<i class=\"fa-solid fa-cloud-arrow-up text-blue\"></i> クラウド即時配信",
+
+        "contact.title.pre": "技術相談の",
+        "contact.title.accent": "予約",
+        "contact.desc": "技術的なアイデアがあるが実現可能かわからない？Lineを追加して、無料でアイデアについて話し合いましょう。技術的およびビジネスの観点から最も誠実なアドバイスを提供します。",
+        "contact.perk1": "<i class=\"fa-solid fa-check-circle text-accent\"></i> 技術的実現可能性の評価",
+        "contact.perk2": "<i class=\"fa-solid fa-check-circle text-accent\"></i> 予算と人員の合理化に関するアドバイス",
+
+        "contact.line.title": "LINE オンライン相談",
+        "contact.line.desc": "推奨：現場の写真や構成図を送信",
+        "contact.phone.title": "直接電話",
+        "contact.phone.desc": "緊急時の技術的トラブルや要件評価",
+        "contact.email.title": "Eメール",
+        "contact.email.desc": "正式な提案や入札の招待",
+
+        "footer.copy": "&copy; 2026 ITune.tw. テクノロジーをあなたの資産に。"
+    },
+    "th": {
+        "meta.title": "ITune.tw | Shrek ดิจิทัลสตูดิโอ",
+        "meta.desc": "ผู้เชี่ยวชาญด้านการรวมระบบฮาร์ดแวร์และซอฟต์แวร์เต็มรูปแบบ ตั้งแต่หุ่นยนต์อัตโนมัติไปจนถึงสถาปัตยกรรมไอทีระดับโลก",
+
+        "nav.logo.sub": "Shrek ดิจิทัลสตูดิโอ",
+        "nav.cases": "กรณีศึกษา",
+        "nav.contact": "จองที่ปรึกษา",
+
+        "hero.title.gradient": "การรวมระบบเต็มรูปแบบ",
+        "hero.title.sub": "การทำงานที่มั่นคงในระยะยาว",
+        "hero.desc": "ผมคือเชร็ค ผู้เชี่ยวชาญด้าน \"การรวมฮาร์ดแวร์และซอฟต์แวร์\" และ \"สถาปัตยกรรมระบบที่ซับซ้อน\" ตั้งแต่ POS ร้านเครือข่ายไปจนถึงโรงงานอัตโนมัติ ผมรับเฉพาะงานที่แก้ปัญหายากที่สุด เพื่อให้ธุรกิจของคุณทำงานได้อย่างมั่นคงในโลกดิจิทัล",
+        "hero.btn.chat": "<i class=\"fa-solid fa-comment-dots\"></i> พูดคุยเกี่ยวกับไอเดียของคุณฟรี",
+        "hero.btn.cases": "<i class=\"fa-solid fa-rocket\"></i> ดูปัญหาที่ผมเคยแก้",
+
+        "features.title.pre": "ทำไมถึงเลือก ",
+        "features.title.accent": "Shrek",
+        "features.title.post": "?",
+        "features.desc": "การเปลี่ยนแปลงทางเทคโนโลยีไม่ใช่แค่การเปลี่ยนซอฟต์แวร์ แต่เป็นการยกระดับความคิด ผมให้การสนับสนุนทางเทคนิคที่เริ่มต้นจาก \"ตรรกะทางธุรกิจ\"",
+
+        "features.card1.title": "มุมมองเต็มรูปแบบ (Full-Stack)",
+        "features.card1.desc": "ผมมีความเชี่ยวชาญในการพัฒนาซอฟต์แวร์, แพลตฟอร์มเสมือน, เครือข่ายแกนหลัก, API แบ็กเอนด์, การพัฒนาฟรอนต์เอนด์ และการรวมระบบไอที คุณไม่ต้องหาพนักงานปฏิบัติการและวิศวกรฮาร์ดแวร์แยกกัน หาผมคนเดียวก็พอ",
+        "features.card2.title": "เน้นระยะยาว",
+        "features.card2.desc": "ผมไม่ทำงานแบบ \"ขอไปที\" ระบบของผมออกแบบมาให้ทำงานได้อย่างเสถียรกว่า 5 ปีโดยไม่ต้องซ่อมแซม",
+        "features.card3.title": "การพัฒนาแบบ Agile",
+        "features.card3.desc": "ไม่มีขั้นตอนธุรกิจที่น่าเบื่อ คุณพูดคุยโดยตรงกับนักพัฒนาหลัก ความต้องการไม่ผิดเพี้ยน และความก้าวหน้าโปร่งใส 100%",
+
+        "cases.title.pre": "เรื่องราว",
+        "cases.title.gradient": "การปรับให้เหมาะสม",
+        "cases.desc": "ไม่พูดเรื่องสเปก พูดถึงวิธีที่เราประหยัดเงิน ทำเงิน และแก้ปัญหาให้ลูกค้า",
+
+        "cases.case1.badge": "การปรับต้นทุน",
+        "cases.case1.title": "ลดต้นทุนพื้นที่เก็บข้อมูลกล้องวงจรปิด 95%",
+        "cases.case1.desc": "ใช้เทคโนโลยีการเข้ารหัสเพื่อซิงค์วิดีโอวงจรปิดไปยัง YouTube แบบเรียลไทม์ แทนที่ NAS แบบเดิม ประหยัดค่าฮาร์ดดิสก์และค่าซ่อมแซม ตอนนี้ใช้งานในร้านค้าหลายร้อยแห่ง",
+        "cases.case1.stat": "<i class=\"fa-solid fa-arrow-trend-down text-green\"></i> ค่าบำรุงรักษา -95%",
+
+        "cases.case2.badge": "ข้ามพรมแดน",
+        "cases.case2.title": "การรวมการจัดการ POS ข้ามประเทศ",
+        "cases.case2.desc": "ผ่าน Site-to-Site VPN ที่กำหนดเองและกลไกซิงค์แคชที่จดสิทธิบัตร ทำให้สำนักงานใหญ่ในไต้หวันควบคุมรายได้และข้อมูลสต็อกของสาขาในฮ่องกง ญี่ปุ่น และไทยได้แบบเรียลไทม์",
+        "cases.case2.stat": "<i class=\"fa-solid fa-bolt text-yellow\"></i> ซิงค์ข้อมูลในระดับวินาที",
+
+        "cases.case3.badge": "AI ROBOTS",
+        "cases.case3.title": "หุ่นยนต์ AMR อัตโนมัติสำหรับโลจิสติกส์",
+        "cases.case3.desc": "แนะนำหุ่นยนต์เคลื่อนที่อัตโนมัติ (AMR) สำหรับศูนย์ลอจิสติกส์ที่ขาดแคลนแรงงาน รวมการระบุตำแหน่ง UWB และการนำทาง SLAM สำหรับการขนส่งไร้คนขับ 24 ชม.",
+        "cases.case3.stat": "<i class=\"fa-solid fa-arrow-trend-up text-accent\"></i> ประสิทธิภาพ +200%",
+
+        "cases.case4.badge": "AI ความปลอดภัย",
+        "cases.case4.title": "การตรวจสอบ AI สำหรับยานพาหนะเชิงพาณิชย์",
+        "cases.case4.desc": "ใช้งานกล้อง AI การประมวลผลเอดจ์ (Edge Computing) สำหรับโลจิสติกส์ระยะไกล ตรวจจับการเสียสมาธิ ความเหนื่อยล้า หรือการละเมิดกฎของผู้ขับขี่แบบเรียลไทม์ ลดอัตราการเกิดอุบัติเหตุอย่างมาก",
+        "cases.case4.stat": "<i class=\"fa-solid fa-shield text-green\"></i> ตรวจจับความเหนื่อยล้า 100%",
+
+        "cases.case5.badge": "อุตสาหกรรม 4.0",
+        "cases.case5.title": "การติดตามสินทรัพย์ระดับเซนติเมตร UWB",
+        "cases.case5.desc": "ปรับปรุงการระบุตำแหน่ง UWB สำหรับโรงงานขนาดใหญ่ แก้ปัญหาเครื่องจักรและวัสดุราคาแพงที่มัก \"หาย\" ในพื้นที่ระดับหมื่นปิง เพิ่มอัตราการใช้สินทรัพย์อย่างมาก",
+        "cases.case5.stat": "<i class=\"fa-solid fa-location-crosshairs text-accent\"></i> ข้อผิดพลาด < 10 เซนติเมตร",
+
+        "cases.case6.badge": "เทคโนโลยีค้าปลีก",
+        "cases.case6.title": "ป้ายอัจฉริยะในร้านเครือข่าย",
+        "cases.case6.desc": "ช่วยแบรนด์ค้าปลีกสร้างระบบจัดส่งเนื้อหา (CMS) พนักงานสำนักงานใหญ่เพียงแค่กดปุ่ม ก็สามารถซิงค์เนื้อหาโปรโมชั่นสำหรับร้านค้าทั่วโลกได้",
+        "cases.case6.stat": "<i class=\"fa-solid fa-cloud-arrow-up text-blue\"></i> การจัดส่งคลาวด์แบบทันที",
+
+        "contact.title.pre": "จอง",
+        "contact.title.accent": "ที่ปรึกษาด้านเทคนิค",
+        "contact.desc": "มีไอเดียเทคโนโลยีแต่ไม่แน่ใจว่าเป็นไปได้หรือไม่? เพิ่ม Line ของผม แล้วพูดคุยเกี่ยวกับไอเดียของคุณฟรี ผมจะให้คำแนะนำที่ซื่อสัตย์ที่สุดจากมุมมองทางเทคนิคและธุรกิจ",
+        "contact.perk1": "<i class=\"fa-solid fa-check-circle text-accent\"></i> การประเมินความเป็นไปได้ทางเทคนิค",
+        "contact.perk2": "<i class=\"fa-solid fa-check-circle text-accent\"></i> คำแนะนำในการลดงบประมาณและกำลังคน",
+
+        "contact.line.title": "ที่ปรึกษา LINE ออนไลน์",
+        "contact.line.desc": "แนะนำ: ส่งรูปภาพหรือแผนผังระบบหน้างาน",
+        "contact.phone.title": "โทรสายตรง",
+        "contact.phone.desc": "กรณีฉุกเฉินทางเทคนิคหรือการประเมินความต้องการ",
+        "contact.email.title": "อีเมล",
+        "contact.email.desc": "ข้อเสนออย่างเป็นทางการหรือคำเชิญประมูล",
+
+        "footer.copy": "&copy; 2026 ITune.tw. ให้เทคโนโลยีเป็นสินทรัพย์ของคุณ"
     }
 };
