@@ -33,8 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const key = el.getAttribute('data-i18n');
             if (translations[lang][key]) {
                 // Check if we need to set innerHTML or textContent
-                // If the translation contains HTML tags (like <i>), use innerHTML
-                if (translations[lang][key].includes('<')) {
+                // If the translation contains HTML tags (like <i>) or HTML entities (like &copy;), use innerHTML
+                if (translations[lang][key].includes('<') || translations[lang][key].includes('&')) {
                     el.innerHTML = translations[lang][key];
                 } else {
                     el.textContent = translations[lang][key];

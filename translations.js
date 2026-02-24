@@ -19,7 +19,7 @@ const translations = {
         "features.desc": "技術轉型不是換一套軟體，而是思維的升級。我提供的是從「商業邏輯」出發的技術支援。",
 
         "features.card1.title": "全端視角",
-        "features.card1.desc": "我不只懂軟體，也懂弱電拉線與硬體通訊。你不需要分別找網管和水電工，找我一個就夠。",
+        "features.card1.desc": "我懂軟體開發、虛擬化平台、骨幹網路、網站後端API、網站前端開發、資訊系統整合。您不需要分別尋找維運人員與硬體工程師，找我一個就夠。",
         "features.card2.title": "長期主義",
         "features.card2.desc": "我不做「交差了事」的專案。我寫的系統是為了讓你在不需要維修的情況下，穩定營運 5 年以上而設計。",
         "features.card3.title": "敏捷開發",
@@ -94,7 +94,7 @@ const translations = {
         "features.desc": "Technical transformation is not just changing software, but upgrading thinking. I provide technical support starting from \"business logic\".",
 
         "features.card1.title": "Full-Stack Perspective",
-        "features.card1.desc": "I understand not only software but also low-voltage wiring and hardware communication. You don't need to find a network admin and an electrician separately; finding me is enough.",
+        "features.card1.desc": "I am proficient in software development, virtualization platforms, backbone networks, backend APIs, frontend development, and IT system integration. You don't need to find separate operations personnel and hardware engineers; finding me is enough.",
         "features.card2.title": "Long-Termism",
         "features.card2.desc": "I don't do \"quick fix\" projects. My systems are designed to operate stably for over 5 years without needing maintenance.",
         "features.card3.title": "Agile Development",
